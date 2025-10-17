@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captcha Solver</title>
+    <meta name="description" content="A web application to solve captchas from a given URL.">
+    <meta name="keywords" content="captcha solver, image to text, OCR, captcha">
+    <meta name="author" content="AI Assistant">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'><path d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 10c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3zm0-6c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z'/></svg>" type="image/svg+xml">
+</head>
+<body>
+    <div class="container">
+        <h1>Captcha Solver</h1>
+        <div id="captcha-container">
+            <img id="captcha-image" src="" alt="Captcha Image">
+        </div>
+        <div id="solution-container">
+            <p id="solution-text"></p>
+            <p id="status-text"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
